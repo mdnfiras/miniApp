@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="https://awwapp.com/static/widget/js/aww.min.js"></script>
+
+<script src="jquery.js"></script>
+</head>
+
+
+<body>
+<!--
+<div class="modwin draggable resizable">
+	<div class="modheader">
+		<span class="tt">Draggable Module</span>
+		<div class="closeb" onclick="closeb(this);">X</div></div>
+	<div class="modcontent">
+		<div class="addmod" onclick="add(0,this);"><span>Whiteboard</span></div>
+		<div class="addmod" onclick="add(1,this);"><span>Calculator</span></div>
+		<div class="addmod" onclick="add(2,this);"><span>File viewer</span></div>
+		<div class="addmod" onclick="add(3,this);"><span>Code editor</span></div>
+	</div>
+</div>
+-->
+<!--
+<object data="myfile.pdf" type="application/pdf" width="100%" height="100%">
+	<p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+</object>
+<input type="button" id="my-button" value="Select Files"/>
+<input type="file" name="my_file" id="my-file" style="visibility:hidden;"/>
+-->
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-9">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 section-title">Work Space</div>
+					<div class="col-12" id="workspace"></div>
+					<div class="col-12">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-2" onclick="addModuleSpace(0);">Add calculator</div>
+								<div class="col-2" onclick="addModuleSpace(1);">Add whiteboard</div>
+								<div class="col-2" onclick="addModuleSpace(2);">Add file viewer</div>
+								<div class="col-2" onclick="addModuleSpace(3);">Add text/code editor</div>
+								<div class="col-2" onclick="addModuleSpace(4);">Add text zone</div>
+								<div class="col-2" onclick="addModuleSpace(5);">Add image</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 section-title">Session users</div>
+					<div class="col-12" style="height:150px;background-color:#f0f0f0;">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12">user 1</div>
+								<div class="col-12">user 2</div>
+								<div class="col-12">user 3</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 section-title">Chat box</div>
+					<div class="col-12" style="height:400px;background-color:#f0f0f0;">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12">msg 1</div>
+								<div class="col-12">msg 2</div>
+								<div class="col-12">msg 3</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-4">fn 1</div>
+								<div class="col-4">fn 2</div>
+								<div class="col-4">fn 3</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="gg.css">
+<script src="gg.js"></script>
+<script src="canvas.js"></script>
+
+</body>
+</html>
